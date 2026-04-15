@@ -77,9 +77,15 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
+<<<<<<< HEAD
     namespace "com.trabalhoapp"
     defaultConfig {
         applicationId "com.trabalhoapp"
+=======
+    namespace "com.meuapplogin"
+    defaultConfig {
+        applicationId "com.meuapplogin"
+>>>>>>> fbf8ac7de988a9cf2ad5eaa1986d58858b7b0862
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

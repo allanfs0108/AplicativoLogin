@@ -22,18 +22,12 @@ function Cadastro({ voltarParaLogin }: CadastroProps) {
     const [mensagemSucesso, setMensagemSucesso] = useState('');
 
     const cadastrar = () => {
-        if (!nome || !email || !senha) {
-            setMensagemSucesso("Preencha todos os campos");
-            return;
-        }
         console.log('Dados cadastrados:', { nome, email, senha });
         setMensagemSucesso('Cadastro realizado com sucesso!');
         setNome('');
         setEmail('');
         setSenha('');
     };
-
-    
 
     return (
       <KeyboardAvoidingView
@@ -89,7 +83,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         padding: 24,
-        backgroundColor: '#eef2ff',
+        backgroundColor: '#f8fafc',
     },
     titulo: {
         fontSize: 24,

@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "TrabalhoApp",
   "displayName": "TrabalhoApp"
+=======
+  "name": "MeuAppLogin",
+  "displayName": "MeuAppLogin"
+>>>>>>> fbf8ac7de988a9cf2ad5eaa1986d58858b7b0862
 }

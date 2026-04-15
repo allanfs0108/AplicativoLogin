@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">TrabalhoApp</string>
+=======
+    <string name="app_name">MeuAppLogin</string>
+>>>>>>> fbf8ac7de988a9cf2ad5eaa1986d58858b7b0862
 </resources>
